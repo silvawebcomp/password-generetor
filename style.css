@@ -1,0 +1,71 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+.container{
+    background-color: purple;
+}
+.inner-container{
+    background-color: white;
+    color: purple;
+    max-width: 500px;
+    margin: 200px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 0 50px #ccc;
+}
+h2{
+    font-size: 35px;
+}
+input{
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 10px;
+    color: #8d0cf7;
+    user-select: none;
+    border: 2px solid #8d0cf7;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #8d0cf7;
+    /* margin: 0 40px; */
+}
+.btn1{
+    margin: 10px 20px;
+}
+.btn2{
+    margin: 10px 20px;
+}
+
+@media (max-width:430px){
+    .inner-container {
+       text-align: center;
+        max-width: 575px;
+        margin: 200px 18px;
+        padding: 31px;
+       
+    }
+
+    h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 9px;
+    }
+}
